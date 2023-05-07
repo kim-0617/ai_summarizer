@@ -1,7 +1,6 @@
-import React from 'react';
-import Hero from './components/Hero';
-import Demo from './components/Demo';
 import './App.css';
+import Demo from './components/Demo';
+import Hero from './components/Hero';
 
 function App() {
   return (

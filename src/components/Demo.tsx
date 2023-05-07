@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
 import { copy, linkIcon, loader, tick } from '@/assets/index';
 import { useLazyGetSummaryQuery } from '@/services/article';
+import React, { useEffect, useState } from 'react';
 
 type ArticleType = {
   url: string;
