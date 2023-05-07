@@ -61,7 +61,7 @@ eslint-plugin-react-hooks
 vite-tsconfig-paths
 ```
 
-1. vite.config.ts 에서 다음과 같이 설정
+3. vite.config.ts 에서 다음과 같이 설정
 
 ```tsx
 import { defineConfig } from 'vite';
@@ -74,7 +74,7 @@ export default defineConfig({
 });
 ```
 
-1. .eslintrc.js 파일 설정
+4. eslintrc.js 파일 설정
 
 ```jsx
 module.exports = {
@@ -107,7 +107,7 @@ module.exports = {
 };
 ```
 
-1. .prettierrc 파일설정
+5. prettierrc 파일설정
 
 ```jsx
 {
@@ -121,9 +121,9 @@ module.exports = {
 }
 ```
 
-1. vscode - default formatter ⇒ prettier Code Formatter 설정
-2. vscode - format on Save 설정
-3. vscode - tabsize : 2 설정
+6. vscode - default formatter ⇒ prettier Code Formatter 설정
+7. vscode - format on Save 설정
+8. vscode - tabsize : 2 설정
 
 ### 사용한 api
 
