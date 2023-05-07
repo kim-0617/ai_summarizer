@@ -7,7 +7,9 @@ function Hero() {
         <img src={logo} alt="logo" className="w-28 object-contain" />
         <button
           type="button"
-          onClick={() => window.open('')}
+          onClick={() =>
+            window.open('https://github.com/kim-0617/ai_summarizer')
+          }
           className="black_btn"
         >
           GitHub
